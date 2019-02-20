@@ -1,0 +1,47 @@
+
+html {
+  font:100%/1.15 sans-serif;
+}
+body {
+  margin:0;
+  margin: 2em 0 0 2em;
+}
+
+
+header {
+  color:#663300
+}
+
+
+body{
+background-color: #cccc66;
+color: #996600;
+max-width: 48em;
+padding: 2em;
+border: 1px dashed #fff;
+margin-left: auto;
+margin-right: auto;
+}
+
+/* -- flexible images -- */
+
+img {
+  width: auto;
+  max-width: 100%;
+  height:auto;
+}
+
+/* --- my styles -- */
+body {
+  font font-family: Arial, Verdana, sans-serif;
+  max-width: 60em;
+}
+
+/* --- breakpoint for wider screens --- */
+
+@media (min-width: 48em) {
+
+body {
+  font-size: 110%;
+}
+}
